@@ -81,11 +81,11 @@ RunTshake:close()
 local RunTs = io.open("ts", 'w')
 RunTs:write([[
 #!/usr/bin/env bash
-cd $HOME/TshAkE
+cd $HOME/mike
 while(true) do
 rm -fr ../.telegram-cli
-screen -S TshAkE -X kill
-screen -S TshAkE ./Tshake
+screen -S mike -X kill
+screen -S mike ./Tshake
 done
 ]])
 RunTs:close()
