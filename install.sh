@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/TshAkE
+cd $HOME/mike
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
